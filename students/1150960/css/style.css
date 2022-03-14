@@ -1,45 +1,66 @@
-body {
-	font-family: arial;
-}
-.img img {
-	border-radius: 50%;
-	width: 50%;
-	max-width: 200px;
-	min-height: 150px;
-	margin: 0 auto;
-	border: solid;
+*{
+	margin: 0px;
+	padding: 0px;
 
 }
 
-.img {
-	display: flex;
-        align-items: center;
-}
-
-
-header {
-	width: 100%;
-	background-color: #a5cfe8;
-	padding-bottom: 20px;
-	padding-top: 50px;
+.general{
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
-.presentacion {
-	display: flex;
-    align-items: center;
-    background-color: #a5cfe8;
-    padding-bottom: 20px;
+.img{
+	background: rgb(245, 92, 17);
+	border: 5px solid rgb(64, 68, 70);
+	border-radius: 500px;
+	text-align: center;
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
-.presentacion__nombre {
-
-	margin: 0 auto;
-
+.img:hover  {   /*para cambiar el color al pasar el mouse*/
+	background: rgb(17, 95, 245);
 }
 
-.presentacion span,a {
+.img img{
+	width: 90%;  /*para que quede espacio para el nombre*/
+}
+.img aside{
+	font-family: fantasy;
+	font-size: 20px;
+	text-shadow: 1px 1px 1px red;
+	color: rgb(32, 34, 34);
+}
 
-	margin: 0 auto;
+.Menu	{
+	background: rgb(32, 34, 34);
+	border: 1px solid rgb(64, 68, 70);
+	border-radius: 5px;
 
+	position: absolute;         /*poscionea la imagen*/
+	top: 50%;										/*poscionea la imagen*/
+	right: 30%;									/*poscionea la imagen*/
+	transform: translateY(-50%);/*reacomoda para que quede al centro*/
+}
+
+.Menu ul{
+	list-style: none;
+}
+
+.Menu1{
+	position: absolute;         /*poscionea la imagen*/
+	top: 50%;										/*poscionea la imagen*/
+	left: 10%;									/*poscionea la imagen*/
+	transform: translateY(-50%);/*reacomoda para que quede al centro*/
+}
+.Menu2{
+	position: absolute;         /*poscionea la imagen*/
+	top: 50%;										/*poscionea la imagen*/
+	right: 30%;									/*poscionea la imagen*/
+	transform: translateY(-50%);/*reacomoda para que quede al centro*/
 }
