@@ -2,6 +2,11 @@
 	margin: 0px;
 	padding: 0px;
 
+
+}
+
+body{
+	background-image: url(https://marketplace.canva.com/EAEK4e71lfM/1/0/1600w/canva-espiralado-estrellas-y-espacio-video-fondo-virtual-para-zoom-dofNJvUP6TE.jpg);
 }
 
 .general{
@@ -38,29 +43,40 @@ align-items: center;
 }
 
 .Menu	{
-	background: rgb(32, 34, 34);
-	border: 1px solid rgb(64, 68, 70);
-	border-radius: 5px;
-
-	position: absolute;         /*poscionea la imagen*/
-	top: 50%;										/*poscionea la imagen*/
-	right: 30%;									/*poscionea la imagen*/
-	transform: translateY(-50%);/*reacomoda para que quede al centro*/
+width: 100%;
+background: rgb(6, 250, 71);
 }
 
 .Menu ul{
 	list-style: none;
+	background: rgb(32, 34, 34);
+	border: 1px solid rgb(64, 68, 70);
+	border-radius: 5px;
+	width: 200px;
 }
 
+.Menu li{
+
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+		color: #fff;
+}
+
+.Menu a{
+		color: #fff;
+}
+
+
 .Menu1{
-	position: absolute;         /*poscionea la imagen*/
-	top: 50%;										/*poscionea la imagen*/
-	left: 10%;									/*poscionea la imagen*/
-	transform: translateY(-50%);/*reacomoda para que quede al centro*/
+	position: absolute;         /*posiciona la imagen*/
+	top: 50%;										/*posiciona la imagen*/
+	left: 20%;									/*posiciona la imagen*/
+	transform: translateY(-50%);/*posiciona para que quede al centro*/
 }
 .Menu2{
-	position: absolute;         /*poscionea la imagen*/
-	top: 50%;										/*poscionea la imagen*/
-	right: 30%;									/*poscionea la imagen*/
+	position: absolute;         /*posiciona la imagen*/
+	top: 50%;										/*posiciona la imagen*/
+	right: 20%;									/*posiciona la imagen*/
 	transform: translateY(-50%);/*reacomoda para que quede al centro*/
 }
