@@ -1,0 +1,44 @@
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size: 1330px 700px ;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.container{
+    width: 130vh;
+    height: 90vh;
+    background-color: white;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+nav{
+    height: 10vh;
+    background-color: #C5C6B4;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: end;
+}
+
+.estandar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.estandar-atras{
+    background-color: #FFCE30;
+}
+
+.estandar-max-min{
+    background-color: #008000;
+}
+
+.estandar-salir{
+    background-color: #FF0000;
+}
