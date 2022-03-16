@@ -1,4 +1,23 @@
-img{
+body{
+    background-image: url("https://images.pexels.com/photos/7988086/pexels-photo-7988086.jpeg?cs=srgb&dl=pexels-mikhail-nilov-7988086.jpg&fm=jpg");
+    background-size: 100%;
+}
+
+.img{
     width: 400px;
     height: 400px;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.principal{
+    width: 500px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
 }
