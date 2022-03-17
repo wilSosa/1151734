@@ -84,21 +84,17 @@ body{
     width: 110vh;
 }
 
-.normal-hobbi{
-    padding-left: 30px;
-}
-
 .normal{
     font-weight: bold;
+}
+
+.normal-hobbi{
+    padding-left: 30px;
 }
 
 .fut{
     text-align: center;
     width: 30vh;
-}
-
-.hobbit-text{
-    font-weight: bold;
 }
 
 .hobbit-image{
