@@ -19,7 +19,7 @@ body{
 }
 
 .nav{
-    height: 6vh;
+    height: 6.6%;
     background-color: #C5C6B4;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -47,18 +47,18 @@ body{
 }
 
 .content{
-    height: 40vh;
+    height: 44.4%;
 }
 
 .texto{
-    width: 90vh;
+    width: 69.23%;
     float: left;
     padding-left: 30px;
 }
 
 .img{
     padding: 10px;
-    width: 30vh;
+    width: 23%;
 }
 
 .foto{
@@ -73,15 +73,15 @@ body{
 }
 
 .line{
-    width: 90vh;
+    width: 100%;
 }
 
 .line-hobbies{
-    width: 110vh;
+    width: 84.6%;
 }
 
 .hobbies{
-    height: 37.5vh;
+    height: 41.7%;
 }
 
 .normal{
@@ -98,7 +98,7 @@ body{
 
 .formato{
     text-align: center;
-    width: 30vh;
+    width: 23%;
 }
 
 .hobbit-image{
@@ -109,7 +109,7 @@ body{
 
 .datos{
     text-align: center;
-    width: 65vh;
+    width: 50%;
     border: 2px solid black;
     border-radius: 10px;
     top: -130%;
