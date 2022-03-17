@@ -26,7 +26,6 @@ body{
     text-align: end;
     padding-right: 20px;
     padding-top: 5px;
-
 }
 
 .estandar{
@@ -49,12 +48,10 @@ body{
 
 .content{
     height: 40vh;
-    background-color: #FFCE30;
 }
 
 .texto{
     width: 90vh;
-    /* background-color: #008000; */
     float: left;
     padding-left: 30px;
 }
@@ -62,7 +59,6 @@ body{
 .img{
     padding: 10px;
     width: 30vh;
-    /* background-color: #FF0000; */
 }
 
 .foto{
@@ -84,21 +80,51 @@ body{
     width: 110vh;
 }
 
+.hobbies{
+    height: 37.5vh;
+}
+
 .normal{
     font-weight: bold;
+}
+
+.normal-centrado{
+    text-align: center;
 }
 
 .normal-hobbi{
     padding-left: 30px;
 }
 
-.fut{
+.formato{
     text-align: center;
     width: 30vh;
 }
 
 .hobbit-image{
-    width: 100px;
+    width: 150px;
     height: 100px;
     border-radius: 15px;
+}
+
+.datos{
+    text-align: center;
+    width: 65vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    top: -130%;
+    transform: translate(0, 130%);
+}
+
+.alineo{
+    float: left;
+}
+
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    text-align: center;
 }
