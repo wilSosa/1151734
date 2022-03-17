@@ -1,11 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
     background-image: url('../img/fondo.jpg');
-    background-size: 1330px 700px ;
-}
-
-.img{
-    width: 400px;
-    height: 400px;
+    background-size: cover;
+    background-position: center;
 }
 
 .container{
