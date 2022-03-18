@@ -1,0 +1,29 @@
+body {
+	font-family: Cooper Black;
+	color: white;
+	background-image: linear-gradient(to right,#0B0D3B,#1BBCB5);
+}
+.img img {
+	border-radius: 50%;	
+	min-width: 400px;
+	min-height: 400px;
+	margin: 0 auto;
+	object-fit: contain;
+	position: relative;
+	left: 80px;
+	top: 90px;
+}
+
+#content{
+	float: left;
+	width: 50%;
+}
+
+aside{
+	width: 50%;
+	float: left;
+	max-height: 200px;	
+	position: relative;
+	top: 120px;
+	font-size: 20px;
+}
