@@ -15,10 +15,12 @@ h2,p{
 }
 ul,li{
   list-style:none;
+
 }
 ul{
   overflow:hidden;
   padding:3em;
+  display: flex;
 }
 ul li a{
   text-decoration:none;
@@ -37,7 +39,6 @@ ul li a{
 }
 ul li{
   margin:1em;
-	float: left;
 }
 ul li h2{
   font-size:140%;
@@ -88,12 +89,7 @@ ul li a:hover,ul li a:focus{
   position:relative;
   z-index:5;
 }
-ul li:nth-child(even) p{
-overflow:visible;
-}
-ul li p :hover,ul li p:focus{
-overflow:visible;
-}
+
 ol{text-align:center;}
 ol li{display:inline;padding-right:1em;}
 ol li a{color:#fff;}
