@@ -1,7 +1,9 @@
-img{
+.img>img{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 10px;
+	border-radius: 100%;
 }
 body{
 	background-color: #7BD2FB;
@@ -9,13 +11,21 @@ body{
 .body{
 	display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
+    align-items: center;
+    background-color: #A1CBEC;
+    margin-top: 10px;
 }
 section > span{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+}
+footer{
+	display: flex;
+    background-color: #BBDCEC;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    font-size: 13px;
 }
