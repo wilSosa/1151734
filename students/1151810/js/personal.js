@@ -1,6 +1,7 @@
 function abrirVentana() {
     window.open("../index.html", '_self');
 }
+
 function cerrarVentana() {
     if (confirm("Seguro que quieres salir?"))
     document.getElementsByTagName ('html') [0] .remove ();
