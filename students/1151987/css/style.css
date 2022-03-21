@@ -1,0 +1,41 @@
+body {
+	font-family: arial;
+}
+.img img {
+	max-width: 400px;
+	min-height: 400px;
+	margin: 0 auto;
+	border: solid;
+
+}
+
+.img {
+	display: flex;
+        align-items: center;
+}
+
+
+header {
+	width: 100%;
+	background-color: #006400;
+	padding-bottom: 20px;
+	padding-top: 50px;
+
+}
+
+.presentacion {
+	display: flex;
+    align-items: center;
+    background-color: #2F4F4F;
+    padding-bottom: 20px;
+}
+
+.presentacion__nombre {
+
+	margin: 0 auto;
+}
+
+.presentacion span,a {
+	margin: 0 auto;
+
+}

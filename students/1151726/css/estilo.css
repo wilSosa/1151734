@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../img/universo.jpg");
+}
+
+.fondoinfo {
+  background: rgb(235, 235, 235);
+  margin: 1% auto;
+  text-align: center;
+  width: 90%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  
+}
+h1 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+   color: rgb(255, 255, 255) ;
+   background-color:rgb(63, 139, 253);
+   font-size: 170%;
+   margin-bottom: 1%;
+   border-radius:40px;
+   -webkit-border-radius:40px;
+   -moz-border-radius:40px;
+   -ms-border-radius:40px;
+   -o-border-radius:40px;
+}
+
+.img img {
+  width: 27%;
+  height: auto;
+}
+.parrafo {
+  margin: 1% auto;
+  width: 80%;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  text-align: justify;
+}
+
+button {
+width: 40%;
+height: 50px;
+margin-bottom: 1%;
+font-size: 200%;
+text-decoration: none;
+background-color: #eeeeee;
+border: 2px solid #0099CC;
+border-radius:40px;
+
+}
+a{
+    color : rgb(0, 0, 0);
+}
+a:hover {
+    color : rgb(255, 255, 255);
+}
+
+button:hover {
+ background: rgb(41, 91, 255);
+}
+
+.email {
+    text-align: right;
+    color: rgb(255, 255, 255);
+    padding-right: 8px;
+    padding-top:1%;
+    background-color:rgb(63, 139, 253);
+}
