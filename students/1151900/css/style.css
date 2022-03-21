@@ -1,0 +1,23 @@
+body{
+	background: #1D8DB0;
+}
+section{
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 36px;
+	color: #000;
+	font-family: 'Open Sans';
+}
+
+.img img{
+	margin: auto;
+}
+.img {
+		display: flex;
+		align-items: center;
+	
+
+}
+ 
